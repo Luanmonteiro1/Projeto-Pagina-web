@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background-color: blueviolet;
+}
+.cabeçalho {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.cabeçalho2 {
+
+    height: 72px;
+}
+.menu {
+    display: flex;
+    gap: 32px;
+    
+}
+.menu-item {
+    font-family: 'righteous',cursive;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 18px;
+}
+.conteudo {
+    border-top: 0.4px solid white;
+    margin-bottom: 48px;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    font-family: 'righteous',cursive;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 18px;
+}
+.conteudo-principal-escrito2 {
+    font-family: 'righteous',cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #fff2e7;
+}
+conteudo-principal-escrito3 {
+    font-family: 'sarala',sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;    
+}
+.botaozin {
+    background-color:#ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0, 0, 0.5);
+    border-radius: 20px;
+    font-family: 'sarala',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: 2F2325;   
+}
+.botaozin:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+
+
+.imagem{
+    height: 400px;
+}
+.secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.titulo1 {
+    border-top: 0.4px solid  #fff2E7;
+    padding-top: 48px;
+    font-family: 'righteous',cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff2e7;
+    margin-bottom: 16px;   
+}
+.secundario2 {
+    font-family: 'sarala',sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+}
+.ultimo {
+    padding: 32px;
+    border-top: 0.9px solid  #fff2E7;
+    
+}
